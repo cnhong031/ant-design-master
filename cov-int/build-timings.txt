@@ -1,0 +1,15 @@
+timer                          ms      calls
+--------------------------------------------
+cov-build                    2812          1
+  add_string_to_table          16         57
+  addEmitFileName               0          1
+    addEmitFileName             0          1
+      addEmitFileName           0          1
+  Prepare capture              16          1
+
+activity                       ms      calls
+--------------------------------------------
+cov-build                    2812          1
+add_string_to_table            16         57
+addEmitFileName                 0          3
+Prepare capture                16          1

@@ -1,0 +1,1123 @@
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> cov-build 2017.07 (build c7e331b562 p-milo-push-30112.651)
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> Coverity Build Capture (64-bit) version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> Dumping from hostname : UPC2539
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> Platform info: Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> cov-build command: cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2018-08-27T03:43:00.963505Z|cov-build|2024|info|> cov-build expanded command: cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> build command: D:\up\cov-analysis-win64-2017.07\bin\cov-build.exe
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> thunk command: cov-build.exe
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> Set COVERITY_CAPTURE_IGNORE to MSPDBSVR.EXE
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> Set COVERITY_BUILD_COMMAND to "D:\up\cov-analysis-win64-2017.07\bin\cov-build.exe" 
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> Set COVERITY_ORIG_BUILD_COMMAND to cov-build.exe
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> Set COVERITY_COV_BUILD_COMMAND to cov-build --dir cov-int --no-command --fs-capture-search ./ 
+2018-08-27T03:43:00.976039Z|cov-build|2024|info|> Set UseSharedCompilation to false.
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_CAPTURE_CHCMDLINE_TYPE to inject
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_BIN to D:/up/cov-analysis-win64-2017.07/bin
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_SITE_CC to apt;c++;cc;cl;clang;clang++;csc;csc2;devenv;g++;g++-3;g++-4;gcc;gcc-3;gcc-4;java;javac;javaw;ld;link;msbuild
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_TEMP to C:/Users/linyzh/AppData/Local/Temp/cov-linyzh/6b980fbb1330a5933d84a3fd78fd8e43
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_COMMON_TEMP to C:/Users/linyzh/AppData/Local/Temp
+2018-08-27T03:43:00.976539Z|cov-build|2024|info|> Set COVERITY_IDIR to D:/ÏÂÔØ/ant-design-master/cov-int
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_OUTPUT to pipe:\\.\pipe\cov-log-c203a78c6c503364f74c2a2ecf4ea1bf.s
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_LOG to pipe:\\.\pipe\cov-log-c203a78c6c503364f74c2a2ecf4ea1bf.m
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_OUTPUT_ENCODING to GBK
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_SYSTEM_ENCODING to GBK
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_EMIT to D:/ÏÂÔØ/ant-design-master/cov-int/emit
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_EMIT to D:/ÏÂÔØ/ant-design-master/cov-int/emit
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Set COVERITY_ENABLE_JAVA_PARSE_ERROR_RECOVERY to 1
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Append to PATH D:\up\cov-analysis-win64-2017.07\jars
+2018-08-27T03:43:00.977041Z|cov-build|2024|info|> Setting COVERITY_LD_LIBRARY_PATH to D:\up\cov-analysis-win64-2017.07\jars
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Set COVERITY_JAVA_CONFIG to javac#TEMPLATE##java#TEMPLATE##apt#TEMPLATE##javaw#TEMPLATE###
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Set COVERITY_USING_CYGWIN to False
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Dumping configuration:
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> User/default configuration:
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Configuration read from: command-line
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config\coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: prevent
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>       Node: dir Value: D:\ä¸‹è½½\ant-design-master\cov-int
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-gcc-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-g++-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-gcc-config-1/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-gcc-config-2/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-g++-config-1/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-g++-config-2/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-ld-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-gcc-config-3/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-g++-config-3/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-javac-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-java-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-apt-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-javaw-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-jsp-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-android-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-web-app-config-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-msvc-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-msvc_devenv-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-msvc_msbuild-config-0/coverity_config.xml
+2018-08-27T03:43:00.977542Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-msvc_link-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-csc-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-csc-config-1/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-clangcc-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-clangcxx-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-javascript-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-html-config-0/coverity_config.xml
+2018-08-27T03:43:00.978044Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-ruby-config-0/coverity_config.xml
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-php-config-0/coverity_config.xml
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>     Node: include Value: D:\up\cov-analysis-win64-2017.07\config/template-python-config-0/coverity_config.xml
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-0\coverity_config.xml
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: comp_name Value: gcc
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: comp_translator Value: gcc
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: id Value: gcc-gcc-.*
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: id Value: g++-gcc-.*
+2018-08-27T03:43:00.978545Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: id Value: g++cc-gcc-.*
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>   Node: md5 Value: 220ab2f621b426ef21b5bff0d14bd626
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-0\coverity_config.xml
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: comp_name Value: g++
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: comp_translator Value: g++
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: id Value: g++-g++-.*
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-0/../user_nodefs.h
+2018-08-27T03:43:00.979046Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: id Value: g++cc-g++-.*
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-0/../user_nodefs.h
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>   Node: md5 Value: d8da15d655e23f85d5c6ae35de65d439
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-1\coverity_config.xml
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: comp_name Value: gcc-3
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: comp_translator Value: gcc
+2018-08-27T03:43:00.979547Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: id Value: gcc-gcc-3-.*
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: id Value: g++-gcc-3-.*
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: id Value: g++cc-gcc-3-.*
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-1/../user_nodefs.h
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|>   Node: md5 Value: 6a6dc6f1a6c9360514c721c673fa1951
+2018-08-27T03:43:00.980049Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-2\coverity_config.xml
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: comp_name Value: gcc-4
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: comp_translator Value: gcc
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: id Value: gcc-gcc-4-.*
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.980550Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: id Value: g++-gcc-4-.*
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: id Value: g++cc-gcc-4-.*
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-2/../user_nodefs.h
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>   Node: md5 Value: 6f1a220d892e908cc9817e94bdeb7bc5
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-1\coverity_config.xml
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.981051Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: comp_name Value: g++-3
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: comp_translator Value: g++
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: id Value: g++-g++-3-.*
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-1/../user_nodefs.h
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: id Value: g++cc-g++-3-.*
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-1/../user_nodefs.h
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>   Node: md5 Value: ada4013796c1b19ed1fe7ebb4197cd2d
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-2\coverity_config.xml
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.981553Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: comp_name Value: g++-4
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: comp_translator Value: g++
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: id Value: g++-g++-4-.*
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-2/../user_nodefs.h
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: id Value: g++cc-g++-4-.*
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-2/../user_nodefs.h
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|>   Node: md5 Value: deb1268a1fd912fa66d290aac3a8d6e1
+2018-08-27T03:43:00.982054Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-ld-config-0\coverity_config.xml
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: comp_name Value: ld
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: comp_translator Value: ld
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: id Value: ld-ld-.*
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-ld-config-0/../user_nodefs.h
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|>   Node: md5 Value: a31ebdf549aecdabc7c15e5c23be5e63
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-3\coverity_config.xml
+2018-08-27T03:43:00.982555Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: comp_name Value: cc
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: comp_translator Value: gcc
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: id Value: gcc-cc-.*
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: id Value: g++-cc-.*
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.983057Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: id Value: g++cc-cc-.*
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-gcc-config-3/../user_nodefs.h
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>   Node: md5 Value: 5ab1d465abf1e699248ecdb7fe5931c0
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-3\coverity_config.xml
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: comp_name Value: c++
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: comp_translator Value: g++
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.983558Z|cov-build|2024|info|>         Node: comp_generic Value: gnu
+2018-08-27T03:43:00.984060Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.984060Z|cov-build|2024|info|>         Node: id Value: g++-c++-.*
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-3/../user_nodefs.h
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: id Value: g++cc-c++-.*
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-g++-config-3/../user_nodefs.h
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: md5 Value: 92107d6a420ac9dd06caaaf4fa667276
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-javac-config-0\coverity_config.xml
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_name Value: javac
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_translator Value: javac
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_lang Value: Static Java
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: id Value: javac-javac-.*
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: md5 Value: 4dff82855a5f75486f23dc3987a065c8
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-java-config-0\coverity_config.xml
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_name Value: java
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_translator Value: java
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_lang Value: Static Java
+2018-08-27T03:43:00.984561Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: id Value: java-java-.*
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>   Node: md5 Value: 670e0eff61ca6e268d4c53f998738922
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-apt-config-0\coverity_config.xml
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: comp_name Value: apt
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: comp_translator Value: apt
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: comp_lang Value: Static Java
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.985062Z|cov-build|2024|info|>         Node: id Value: apt-apt-.*
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>   Node: md5 Value: 0c3c17692884987df5fe47566993553e
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-javaw-config-0\coverity_config.xml
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.985564Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: comp_name Value: javaw
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: comp_translator Value: javaw
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: comp_lang Value: Static Java
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: id Value: javaw-javaw-.*
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|>   Node: md5 Value: aa3bf49b5164470df847ce74b96aa069
+2018-08-27T03:43:00.986065Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-jsp-config-0\coverity_config.xml
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-jsp-0
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_translator Value: jsp
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.(jsp|jspx)$
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: id Value: jsp-cov-filesystem-capture-jsp-0-.*
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>   Node: md5 Value: 425f5b1409471a4a55890e518ffea917
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-android-config-0\coverity_config.xml
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-android-0
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_translator Value: android
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: comp_generic Value: java
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.xml$
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.986566Z|cov-build|2024|info|>         Node: id Value: android-cov-filesystem-capture-android-0-.*
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>   Node: md5 Value: 07be021ce31fbf4d039bdd2f06118c8b
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-web-app-config-config-0\coverity_config.xml
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-web-app-config-0
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: comp_translator Value: web-app-config
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.987067Z|cov-build|2024|info|>         Node: comp_generic Value: web_app_config
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: file_include_pattern Value: a^
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-.*
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>   Node: md5 Value: 4b5ee114698aa398279ca05a07bbd880
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-msvc-config-0\coverity_config.xml
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: comp_name Value: cl
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: comp_translator Value: msvc
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>         Node: comp_generic Value: msvc
+2018-08-27T03:43:00.987569Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>         Node: id Value: msvc-cl-.*
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-msvc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>           Node: var_name Value: cov_instrument_config_version
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>             Node: var_value Value: 3
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.988070Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_header_path
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.988571Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_name
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: platform_name Value: x64
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: platform_name Value: x86
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_path
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: id Value: msvc_cxx-cl-.*
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-msvc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: var_name Value: cov_instrument_config_version
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: var_value Value: 3
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.989073Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_header_path
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_name
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: platform_name Value: x64
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: platform_name Value: x86
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_path
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.989574Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>   Node: md5 Value: 7be94be8fa739ed4bbd4d6878dcf05b2
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-msvc_devenv-config-0\coverity_config.xml
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>         Node: comp_name Value: devenv
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>         Node: comp_translator Value: msvc_devenv
+2018-08-27T03:43:00.990076Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: comp_generic Value: msvc
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: id Value: msvc_devenv-devenv-.*
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-msvc_devenv-config-0/../user_nodefs.h
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>   Node: md5 Value: 1bd6116a591fe1eeb03a04d0299f415d
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-msvc_msbuild-config-0\coverity_config.xml
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.990577Z|cov-build|2024|info|>         Node: comp_name Value: msbuild
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_translator Value: msvc_msbuild
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_generic Value: msvc
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: id Value: msvc_msbuild-msbuild-.*
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-msvc_msbuild-config-0/../user_nodefs.h
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>   Node: md5 Value: 90758a4508778ab76c418f64362bed29
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-msvc_link-config-0\coverity_config.xml
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_name Value: link
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_translator Value: msvc_link
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: comp_generic Value: msvc
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: id Value: msvc_link-link-.*
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-msvc_link-config-0/../user_nodefs.h
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.991079Z|cov-build|2024|info|>           Node: var_name Value: cov_instrument_config_version
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>             Node: var_value Value: 3
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_deployment_path
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.991581Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_header_path
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/sdk/runtime/ta-runtime
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_name
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: platform_name Value: x64
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x64.lib
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: platform_name Value: x86
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: var_value Value: libci-runtime-x86.lib
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>         Node: instrument_variable
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: var_name Value: cov_lib_path
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>           Node: cond_platform_value
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: platform_name Value: all
+2018-08-27T03:43:00.992081Z|cov-build|2024|info|>             Node: var_value Value: /Users/mllaguno/Downloads/scan/2017.07/capture_tarballs/cov-analysis-macosx-2017.07/lib
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>   Node: md5 Value: b934bab21dd57b9bd4e87b6bc04c90ff
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-csc-config-0\coverity_config.xml
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: comp_name Value: csc
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: comp_translator Value: csc
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: comp_lang Value: C#
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: comp_generic Value: csc
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: id Value: csc-csc-.*
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>   Node: md5 Value: fe090f9c5ade85b6791417ae28e7af34
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-csc-config-1\coverity_config.xml
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.992583Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.993084Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_name Value: csc2
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_translator Value: csc
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_lang Value: C#
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_generic Value: csc
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: id Value: csc-csc2-.*
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>   Node: md5 Value: 977437d947559cc8595a296b529da4b3
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0\coverity_config.xml
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_name Value: clang
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_translator Value: clangcc
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: comp_generic Value: clang
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: id Value: clangcc-clang-.*
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: id Value: clangcxx-clang-.*
+2018-08-27T03:43:00.993586Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>         Node: id Value: clangcxxcc-clang-.*
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994087Z|cov-build|2024|info|>         Node: id Value: clangobjc-clang-.*
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: id Value: clangobjcxx-clang-.*
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcc-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>   Node: md5 Value: 15fd1279f5d22c97f5ebadaac9bf1e6b
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-clangcxx-config-0\coverity_config.xml
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: comp_name Value: clang++
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: comp_translator Value: clangcxx
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: comp_lang Value: C/C++
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: comp_generic Value: clang
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: id Value: clangcxx-clang++-.*
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: id Value: clangcxxcc-clang++-.*
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.994588Z|cov-build|2024|info|>         Node: id Value: clangobjc-clang++-.*
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: id Value: clangobjcxx-clang++-.*
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: opt_preinclude_file Value: D:\up\cov-analysis-win64-2017.07\config\template-clangcxx-config-0/../user_nodefs.h
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>   Node: md5 Value: a5fffed9db920f7281ac5687f6514630
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-javascript-config-0\coverity_config.xml
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: comp_translator Value: javascript
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: comp_generic Value: javascript
+2018-08-27T03:43:00.995089Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.(js|xsjs|xsjslib)$
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>   Node: md5 Value: 27a00c60dd27cc03e3adb984b7a5dffd
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-html-config-0\coverity_config.xml
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: comp_translator Value: html
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.995590Z|cov-build|2024|info|>         Node: comp_generic Value: javascript
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.(html|htm)$
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: id Value: html-cov-filesystem-capture-html-0-.*
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>   Node: md5 Value: 19397d11982615e58d756dc918e6d3c2
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-ruby-config-0\coverity_config.xml
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-ruby-0
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: comp_translator Value: ruby
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: comp_generic Value: ruby
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.rb$
+2018-08-27T03:43:00.996092Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: id Value: ruby-cov-filesystem-capture-ruby-0-.*
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>   Node: md5 Value: e05b5d016abf502f4374682646f80501
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-php-config-0\coverity_config.xml
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-php-0
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: comp_translator Value: php
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: comp_generic Value: php
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.php$
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.996593Z|cov-build|2024|info|>         Node: id Value: php-cov-filesystem-capture-php-0-.*
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>   Node: md5 Value: 8bf88b4c45e978fe7f5e31c6d61cde3a
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|> 
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|> Configuration read from: D:\up\cov-analysis-win64-2017.07\config\template-python-config-0\coverity_config.xml
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|> Node: coverity
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>   Node: cit_version Value: 1
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>   Node: config
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>     Node: build
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>       Node: compiler
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: template_compiler Value: true
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: comp_name Value: cov-filesystem-capture-python-0
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: comp_translator Value: python
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: comp_generic Value: python
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>         Node: file_include_pattern Value: ^.*\.py$
+2018-08-27T03:43:00.997095Z|cov-build|2024|info|>       Node: options
+2018-08-27T03:43:00.997596Z|cov-build|2024|info|>         Node: id Value: python-cov-filesystem-capture-python-0-.*
+2018-08-27T03:43:00.997596Z|cov-build|2024|info|>         Node: begin_command_line_config
+2018-08-27T03:43:00.997596Z|cov-build|2024|info|>   Node: md5 Value: 4498fd410774a9faa0109aad2e182841
+2018-08-27T03:43:00.997596Z|cov-build|2024|info|> 
+2018-08-27T03:43:01.003611Z|cov-build|2024|info|> [STATUS] Running filesystem capture search...
+2018-08-27T03:43:01.204146Z|cov-translate|14692|output|> * Configuring Web-app Configuration Filesystem Capture
+2018-08-27T03:43:01.213171Z|cov-translate|14692|output|> Added template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/8584329b245699cb4fa54ae50021fb01/coverity_config.xml
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\8584329b245699cb4fa54ae50021fb01\coverity_config.xml
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|> Node: coverity
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>   Node: config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>     Node: include Value: D:\ä¸‹è½½\ant-design-master\cov-int\emit\UPC2539\config\8584329b245699cb4fa54ae50021fb01\web-app-config-config-0\coverity_config.xml
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\8584329b245699cb4fa54ae50021fb01\web-app-config-config-0\coverity_config.xml
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|> Node: coverity
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>   Node: config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>     Node: build
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>       Node: compiler
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_name Value: cov-filesystem-capture-web-app-config-0
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_translator Value: web-app-config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_desc Value: Web-app Configuration Filesystem Capture
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: comp_generic Value: web_app_config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-8584329b245699cb4fa54ae50021fb01-0
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: is_compiler Value: true
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: is_linker Value: false
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>       Node: options
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: id Value: web-app-config-cov-filesystem-capture-web-app-config-0-8584329b245699cb4fa54ae50021fb01-0
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: template_config_option_id Value: web-app-config-cov-filesystem-capture-web-app-config-0-.*
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: prepend_arg Value: --language=web-app-config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: split
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>           Node: options
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: expand
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>           Node: options
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>         Node: begin_command_line_config
+2018-08-27T03:43:01.219688Z|cov-translate|14692|output|>   Node: md5 Value: b0e1b75980741e989cff329492a3e954
+2018-08-27T03:43:01.220189Z|cov-translate|14692|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:01.223701Z|cov-translate|14692|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "IgnoreMe.txt"
+2018-08-27T03:43:01.241246Z|cov-translate|14692|output|> [WARNING] During pre_translate, unrecognized option: --fs-capture-search
+2018-08-27T03:43:01.244755Z|cov-translate|14692|output|> [STATUS] Compiling IgnoreMe.txt
+2018-08-27T03:43:01.244755Z|cov-translate|14692|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=web-app-config --fs-capture-search ./ IgnoreMe.txt 
+2018-08-27T03:43:01.248766Z|cov-translate|14692|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-fc75dfff7eb3437a0242f03e8619734e-0.cmd_args.txt
+2018-08-27T03:43:01.272830Z|cov-translate|14692|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:01.272830Z|cov-translate|14692|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:01.272830Z|cov-translate|14692|output|> 
+2018-08-27T03:43:01.354048Z|cov-translate|14692|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:01.368586Z|cov-translate|14692|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:01.429248Z|cov-translate|14692|output|> 
+2018-08-27T03:43:01.435765Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:01.435765Z|cov-build|2024|info|> [STATUS] Emitting non-source files from filesystem capture
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> [STATUS] Emitting 141 source files from filesystem capture
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> No source files for template-jsp-config-0 (^.*\.(jsp|jspx)$ -> cov-filesystem-capture-jsp-0)
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> No source files for template-android-config-0 (^.*\.xml$ -> cov-filesystem-capture-android-0)
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> No source files for template-web-app-config-config-0 (a^ -> cov-filesystem-capture-web-app-config-0)
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> BEGIN source files (140) for template-javascript-config-0 (^.*\.(js|xsjs|xsjslib)$ -> cov-filesystem-capture-javascript-0)
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/_util/__tests__/util.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/affix/__tests__/Affix.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/affix/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/alert/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/anchor/__tests__/Anchor.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/anchor/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/auto-complete/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/auto-complete/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/avatar/__tests__/Avatar.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/avatar/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/back-top/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/back-top/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/badge/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/badge/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/breadcrumb/__tests__/Breadcrumb.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/breadcrumb/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/button/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/button/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/calendar/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/calendar/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/card/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/card/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/carousel/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/carousel/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/cascader/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/cascader/__tests__/index.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/checkbox/__tests__/checkbox.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/checkbox/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/checkbox/__tests__/group.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/collapse/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/DatePicker.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/MonthPicker.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/RangePicker.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/WeekPicker.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/other.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/showTime.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/date-picker/__tests__/utils.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/divider/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/dropdown/__tests__/demo.test.js
+2018-08-27T03:43:01.436266Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/dropdown/__tests__/dropdown-button.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/form/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/form/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/form/__tests__/label.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/grid/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/grid/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/icon/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/input/__tests__/Search.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/input/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/input/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/input-number/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/input-number/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/layout/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/layout/__tests__/index.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/list/__tests__/demo.test.js
+2018-08-27T03:43:01.436767Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/list/__tests__/empty.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/list/__tests__/loading.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/locale-provider/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/locale-provider/__tests__/index.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/mention/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/menu/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/menu/__tests__/index.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/message/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/message/__tests__/index.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/modal/__tests__/Modal.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/modal/__tests__/confirm.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/notification/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/notification/__tests__/index.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/notification/__tests__/placement.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/pagination/__tests__/demo.test.js
+2018-08-27T03:43:01.437268Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/popconfirm/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/popconfirm/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/popover/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/popover/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/progress/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/progress/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/radio/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/radio/__tests__/group.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/radio/__tests__/radio.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/rate/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/rate/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/select/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/select/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/slider/__tests__/demo.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/slider/__tests__/index.test.js
+2018-08-27T03:43:01.437770Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/spin/__tests__/demo.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/spin/__tests__/index.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/steps/__tests__/demo.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/switch/__tests__/demo.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/switch/__tests__/index.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/SelectionBox.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/Table.filter.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/Table.pagination.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/Table.rowSelection.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/Table.sorter.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/Table.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/demo.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/table/__tests__/empty.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tabs/__tests__/demo.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tabs/__tests__/index.test.js
+2018-08-27T03:43:01.438271Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tag/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tag/__tests__/index.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/time-picker/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/time-picker/__tests__/index.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/timeline/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tooltip/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tooltip/__tests__/tooltip.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/transfer/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/transfer/__tests__/index.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/transfer/__tests__/list.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/transfer/__tests__/search.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tree/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tree-select/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/tree-select/__tests__/index.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/upload/__tests__/demo.test.js
+2018-08-27T03:43:01.438773Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/upload/__tests__/requests.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/upload/__tests__/upload.test.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/components/upload/__tests__/uploadlist.test.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/index-with-locales.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/index.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/scripts/generateColorLess.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/scripts/prepub.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/scripts/sort-api-table.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/scripts/update-rc.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/bisheng.config.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/theme/en-US.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/theme/index.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/theme/static/style.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/theme/zh-CN.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/__mocks__/rc-trigger.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/__mocks__/rc-util/lib/Portal.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/dekko/dist.test.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/dekko/lib.test.js
+2018-08-27T03:43:01.439274Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/index.test.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/setup.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/shared/demoTest.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/shared/focusTest.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/tests/utils.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/webpack.config.js
+2018-08-27T03:43:01.439775Z|cov-build|2024|info|> END source files for template-javascript-config-0 (^.*\.(js|xsjs|xsjslib)$ -> cov-filesystem-capture-javascript-0)
+2018-08-27T03:43:01.552075Z|cov-translate|15160|output|> * Configuring JavaScript Filesystem Capture (javascript)
+2018-08-27T03:43:01.560098Z|cov-translate|15160|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:01.568118Z|cov-translate|15160|output|> Added template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\c8f9de1601ea66885a3e53408842da4f\coverity_config.xml
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|> Node: coverity
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>   Node: config
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>     Node: include Value: D:\ä¸‹è½½\ant-design-master\cov-int\emit\UPC2539\config\c8f9de1601ea66885a3e53408842da4f\javascript-config-0\coverity_config.xml
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\c8f9de1601ea66885a3e53408842da4f\javascript-config-0\coverity_config.xml
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|> Node: coverity
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>   Node: config
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>     Node: build
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>       Node: compiler
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_name Value: cov-filesystem-capture-javascript-0
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_translator Value: javascript
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_desc Value: JavaScript Filesystem Capture (javascript)
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: comp_generic Value: javascript
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-c8f9de1601ea66885a3e53408842da4f-0
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: is_compiler Value: true
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: is_linker Value: false
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>       Node: options
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: id Value: javascript-cov-filesystem-capture-javascript-0-c8f9de1601ea66885a3e53408842da4f-0
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: template_config_option_id Value: javascript-cov-filesystem-capture-javascript-0-.*
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: prepend_arg Value: --language=javascript
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: split
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>           Node: options
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: expand
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>           Node: options
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>         Node: begin_command_line_config
+2018-08-27T03:43:01.575137Z|cov-translate|15160|output|>   Node: md5 Value: 1bfa3eaf5f97d00d4622856495495037
+2018-08-27T03:43:01.578144Z|cov-translate|15160|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/_util/__tests__/util.test.js" "D:/ä¸‹è½½/ant-design-master/components/affix/__tests__/Affix.test.js" "D:/ä¸‹è½½/ant-design-master/components/affix/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/alert/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/anchor/__tests__/Anchor.test.js" "D:/ä¸‹è½½/ant-design-master/components/anchor/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/auto-complete/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/auto-complete/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/avatar/__tests__/Avatar.test.js" "D:/ä¸‹è½½/ant-design-master/components/avatar/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/back-top/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/back-top/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/badge/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/badge/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/breadcrumb/__tests__/Breadcrumb.test.js" "D:/ä¸‹è½½/ant-design-master/components/breadcrumb/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/button/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/button/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/calendar/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/calendar/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/card/__tests__/demo.test.js"
+2018-08-27T03:43:01.603713Z|cov-translate|15160|output|> [STATUS] Compiling 22 Non compiled source files.
+2018-08-27T03:43:01.603713Z|cov-translate|15160|output|> [STATUS] Compiling components\__tests__\index.test.js, components\_util\__tests__\util.test.js, components\affix\__tests__\Affix.test.js, components\affix\__tests__\demo.test.js, components\alert\__tests__\demo.test.js, components\anchor\__tests__\Anchor.test.js, components\anchor\__tests__\demo.test.js, components\auto-complete\__tests__\demo.test.js, components\auto-complete\__tests__\index.test.js, components\avatar\__tests__\Avatar.test.js, components\avatar\__tests__\demo.test.js, components\back-top\__tests__\demo.test.js, components\back-top\__tests__\index.test.js, components\badge\__tests__\demo.test.js, components\badge\__tests__\index.test.js, components\breadcrumb\__tests__\Breadcrumb.test.js, components\breadcrumb\__tests__\demo.test.js, components\button\__tests__\demo.test.js, components\button\__tests__\index.test.js, components\calendar\__tests__\demo.test.js, components\calendar\__tests__\index.test.js, components\card\__tests__\demo.test.js
+2018-08-27T03:43:01.604213Z|cov-translate|15160|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/__tests__/index.test.js components/_util/__tests__/util.test.js components/affix/__tests__/Affix.test.js components/affix/__tests__/demo.test.js components/alert/__tests__/demo.test.js components/anchor/__tests__/Anchor.test.js components/anchor/__tests__/demo.test.js components/auto-complete/__tests__/demo.test.js components/auto-complete/__tests__/index.test.js components/avatar/__tests__/Avatar.test.js components/avatar/__tests__/demo.test.js components/back-top/__tests__/demo.test.js components/back-top/__tests__/index.test.js components/badge/__tests__/demo.test.js components/badge/__tests__/index.test.js components/breadcrumb/__tests__/Breadcrumb.test.js components/breadcrumb/__tests__/demo.test.js components/button/__tests__/demo.test.js components/button/__tests__/index.test.js components/calendar/__tests__/demo.test.js components/calendar/__tests__/index.test.js components/card/__tests__/demo.test.js 
+2018-08-27T03:43:01.610230Z|cov-translate|15160|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-fd70533f4932ac343ce0aa293837bcb4-0.cmd_args.txt
+2018-08-27T03:43:01.621761Z|cov-translate|15160|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:01.622262Z|cov-translate|15160|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:01.622262Z|cov-translate|15160|output|> 
+2018-08-27T03:43:01.670390Z|cov-translate|15160|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:01.675404Z|cov-translate|15160|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:01.689944Z|cov-translate|15160|output|> 
+2018-08-27T03:43:01.695457Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:01.762636Z|cov-translate|6648|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:01.765644Z|cov-translate|6648|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:01.768652Z|cov-translate|6648|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/card/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/carousel/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/carousel/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/cascader/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/cascader/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/checkbox/__tests__/checkbox.test.js" "D:/ä¸‹è½½/ant-design-master/components/checkbox/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/checkbox/__tests__/group.test.js" "D:/ä¸‹è½½/ant-design-master/components/collapse/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/DatePicker.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/MonthPicker.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/RangePicker.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/WeekPicker.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/other.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/showTime.test.js" "D:/ä¸‹è½½/ant-design-master/components/date-picker/__tests__/utils.js" "D:/ä¸‹è½½/ant-design-master/components/divider/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/dropdown/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/dropdown/__tests__/dropdown-button.test.js" "D:/ä¸‹è½½/ant-design-master/components/form/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/form/__tests__/index.test.js"
+2018-08-27T03:43:01.789710Z|cov-translate|6648|output|> [STATUS] Compiling 22 Non compiled source files.
+2018-08-27T03:43:01.790211Z|cov-translate|6648|output|> [STATUS] Compiling components\card\__tests__\index.test.js, components\carousel\__tests__\demo.test.js, components\carousel\__tests__\index.test.js, components\cascader\__tests__\demo.test.js, components\cascader\__tests__\index.test.js, components\checkbox\__tests__\checkbox.test.js, components\checkbox\__tests__\demo.test.js, components\checkbox\__tests__\group.test.js, components\collapse\__tests__\demo.test.js, components\date-picker\__tests__\DatePicker.test.js, components\date-picker\__tests__\MonthPicker.test.js, components\date-picker\__tests__\RangePicker.test.js, components\date-picker\__tests__\WeekPicker.test.js, components\date-picker\__tests__\demo.test.js, components\date-picker\__tests__\other.test.js, components\date-picker\__tests__\showTime.test.js, components\date-picker\__tests__\utils.js, components\divider\__tests__\demo.test.js, components\dropdown\__tests__\demo.test.js, components\dropdown\__tests__\dropdown-button.test.js, components\form\__tests__\demo.test.js, components\form\__tests__\index.test.js
+2018-08-27T03:43:01.790211Z|cov-translate|6648|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/card/__tests__/index.test.js components/carousel/__tests__/demo.test.js components/carousel/__tests__/index.test.js components/cascader/__tests__/demo.test.js components/cascader/__tests__/index.test.js components/checkbox/__tests__/checkbox.test.js components/checkbox/__tests__/demo.test.js components/checkbox/__tests__/group.test.js components/collapse/__tests__/demo.test.js components/date-picker/__tests__/DatePicker.test.js components/date-picker/__tests__/MonthPicker.test.js components/date-picker/__tests__/RangePicker.test.js components/date-picker/__tests__/WeekPicker.test.js components/date-picker/__tests__/demo.test.js components/date-picker/__tests__/other.test.js components/date-picker/__tests__/showTime.test.js components/date-picker/__tests__/utils.js components/divider/__tests__/demo.test.js components/dropdown/__tests__/demo.test.js components/dropdown/__tests__/dropdown-button.test.js components/form/__tests__/demo.test.js components/form/__tests__/index.test.js 
+2018-08-27T03:43:01.798231Z|cov-translate|6648|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-759582c922fe2c5b26fb4f22d611438c-0.cmd_args.txt
+2018-08-27T03:43:01.808760Z|cov-translate|6648|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:01.808760Z|cov-translate|6648|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:01.808760Z|cov-translate|6648|output|> 
+2018-08-27T03:43:01.857389Z|cov-translate|6648|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:01.862904Z|cov-translate|6648|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:01.875939Z|cov-translate|6648|output|> 
+2018-08-27T03:43:01.881454Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:01.950638Z|cov-translate|9496|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:01.953145Z|cov-translate|9496|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:01.957155Z|cov-translate|9496|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/form/__tests__/label.test.js" "D:/ä¸‹è½½/ant-design-master/components/grid/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/grid/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/icon/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/input/__tests__/Search.test.js" "D:/ä¸‹è½½/ant-design-master/components/input/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/input/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/input-number/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/input-number/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/layout/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/layout/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/list/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/list/__tests__/empty.test.js" "D:/ä¸‹è½½/ant-design-master/components/list/__tests__/loading.test.js" "D:/ä¸‹è½½/ant-design-master/components/locale-provider/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/locale-provider/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/mention/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/menu/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/menu/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/message/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/message/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/modal/__tests__/Modal.test.js"
+2018-08-27T03:43:01.975705Z|cov-translate|9496|output|> [STATUS] Compiling 22 Non compiled source files.
+2018-08-27T03:43:01.975705Z|cov-translate|9496|output|> [STATUS] Compiling components\form\__tests__\label.test.js, components\grid\__tests__\demo.test.js, components\grid\__tests__\index.test.js, components\icon\__tests__\index.test.js, components\input\__tests__\Search.test.js, components\input\__tests__\demo.test.js, components\input\__tests__\index.test.js, components\input-number\__tests__\demo.test.js, components\input-number\__tests__\index.test.js, components\layout\__tests__\demo.test.js, components\layout\__tests__\index.test.js, components\list\__tests__\demo.test.js, components\list\__tests__\empty.test.js, components\list\__tests__\loading.test.js, components\locale-provider\__tests__\demo.test.js, components\locale-provider\__tests__\index.test.js, components\mention\__tests__\demo.test.js, components\menu\__tests__\demo.test.js, components\menu\__tests__\index.test.js, components\message\__tests__\demo.test.js, components\message\__tests__\index.test.js, components\modal\__tests__\Modal.test.js
+2018-08-27T03:43:01.975705Z|cov-translate|9496|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/form/__tests__/label.test.js components/grid/__tests__/demo.test.js components/grid/__tests__/index.test.js components/icon/__tests__/index.test.js components/input/__tests__/Search.test.js components/input/__tests__/demo.test.js components/input/__tests__/index.test.js components/input-number/__tests__/demo.test.js components/input-number/__tests__/index.test.js components/layout/__tests__/demo.test.js components/layout/__tests__/index.test.js components/list/__tests__/demo.test.js components/list/__tests__/empty.test.js components/list/__tests__/loading.test.js components/locale-provider/__tests__/demo.test.js components/locale-provider/__tests__/index.test.js components/mention/__tests__/demo.test.js components/menu/__tests__/demo.test.js components/menu/__tests__/index.test.js components/message/__tests__/demo.test.js components/message/__tests__/index.test.js components/modal/__tests__/Modal.test.js 
+2018-08-27T03:43:01.980718Z|cov-translate|9496|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-b661f84b6ccba08608ee2a2ced211b2a-0.cmd_args.txt
+2018-08-27T03:43:01.996760Z|cov-translate|9496|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:01.996760Z|cov-translate|9496|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:01.996760Z|cov-translate|9496|output|> 
+2018-08-27T03:43:02.041380Z|cov-translate|9496|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:02.046393Z|cov-translate|9496|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:02.061935Z|cov-translate|9496|output|> 
+2018-08-27T03:43:02.066948Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:02.134628Z|cov-translate|14212|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:02.137135Z|cov-translate|14212|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:02.140143Z|cov-translate|14212|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/modal/__tests__/confirm.test.js" "D:/ä¸‹è½½/ant-design-master/components/notification/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/notification/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/notification/__tests__/placement.test.js" "D:/ä¸‹è½½/ant-design-master/components/pagination/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/popconfirm/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/popconfirm/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/popover/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/popover/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/progress/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/progress/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/radio/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/radio/__tests__/group.test.js" "D:/ä¸‹è½½/ant-design-master/components/radio/__tests__/radio.test.js" "D:/ä¸‹è½½/ant-design-master/components/rate/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/rate/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/select/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/select/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/slider/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/slider/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/spin/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/spin/__tests__/index.test.js"
+2018-08-27T03:43:02.162703Z|cov-translate|14212|output|> [STATUS] Compiling 22 Non compiled source files.
+2018-08-27T03:43:02.162703Z|cov-translate|14212|output|> [STATUS] Compiling components\modal\__tests__\confirm.test.js, components\notification\__tests__\demo.test.js, components\notification\__tests__\index.test.js, components\notification\__tests__\placement.test.js, components\pagination\__tests__\demo.test.js, components\popconfirm\__tests__\demo.test.js, components\popconfirm\__tests__\index.test.js, components\popover\__tests__\demo.test.js, components\popover\__tests__\index.test.js, components\progress\__tests__\demo.test.js, components\progress\__tests__\index.test.js, components\radio\__tests__\demo.test.js, components\radio\__tests__\group.test.js, components\radio\__tests__\radio.test.js, components\rate\__tests__\demo.test.js, components\rate\__tests__\index.test.js, components\select\__tests__\demo.test.js, components\select\__tests__\index.test.js, components\slider\__tests__\demo.test.js, components\slider\__tests__\index.test.js, components\spin\__tests__\demo.test.js, components\spin\__tests__\index.test.js
+2018-08-27T03:43:02.162703Z|cov-translate|14212|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/modal/__tests__/confirm.test.js components/notification/__tests__/demo.test.js components/notification/__tests__/index.test.js components/notification/__tests__/placement.test.js components/pagination/__tests__/demo.test.js components/popconfirm/__tests__/demo.test.js components/popconfirm/__tests__/index.test.js components/popover/__tests__/demo.test.js components/popover/__tests__/index.test.js components/progress/__tests__/demo.test.js components/progress/__tests__/index.test.js components/radio/__tests__/demo.test.js components/radio/__tests__/group.test.js components/radio/__tests__/radio.test.js components/rate/__tests__/demo.test.js components/rate/__tests__/index.test.js components/select/__tests__/demo.test.js components/select/__tests__/index.test.js components/slider/__tests__/demo.test.js components/slider/__tests__/index.test.js components/spin/__tests__/demo.test.js components/spin/__tests__/index.test.js 
+2018-08-27T03:43:02.167717Z|cov-translate|14212|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-a6b3ebfc8615f5401ae4637d3914a77f-0.cmd_args.txt
+2018-08-27T03:43:02.178245Z|cov-translate|14212|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:02.178746Z|cov-translate|14212|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:02.178746Z|cov-translate|14212|output|> 
+2018-08-27T03:43:02.226875Z|cov-translate|14212|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:02.231888Z|cov-translate|14212|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:02.358728Z|cov-translate|14212|output|> 
+2018-08-27T03:43:02.364241Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:02.430424Z|cov-translate|920|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:02.432924Z|cov-translate|920|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:02.435932Z|cov-translate|920|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/steps/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/switch/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/switch/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/SelectionBox.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/Table.filter.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/Table.pagination.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/Table.rowSelection.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/Table.sorter.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/Table.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/table/__tests__/empty.test.js" "D:/ä¸‹è½½/ant-design-master/components/tabs/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tabs/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/tag/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tag/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/time-picker/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/time-picker/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/timeline/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tooltip/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tooltip/__tests__/tooltip.test.js" "D:/ä¸‹è½½/ant-design-master/components/transfer/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/transfer/__tests__/index.test.js"
+2018-08-27T03:43:02.454983Z|cov-translate|920|output|> [STATUS] Compiling 22 Non compiled source files.
+2018-08-27T03:43:02.455485Z|cov-translate|920|output|> [STATUS] Compiling components\steps\__tests__\demo.test.js, components\switch\__tests__\demo.test.js, components\switch\__tests__\index.test.js, components\table\__tests__\SelectionBox.test.js, components\table\__tests__\Table.filter.test.js, components\table\__tests__\Table.pagination.test.js, components\table\__tests__\Table.rowSelection.test.js, components\table\__tests__\Table.sorter.test.js, components\table\__tests__\Table.test.js, components\table\__tests__\demo.test.js, components\table\__tests__\empty.test.js, components\tabs\__tests__\demo.test.js, components\tabs\__tests__\index.test.js, components\tag\__tests__\demo.test.js, components\tag\__tests__\index.test.js, components\time-picker\__tests__\demo.test.js, components\time-picker\__tests__\index.test.js, components\timeline\__tests__\demo.test.js, components\tooltip\__tests__\demo.test.js, components\tooltip\__tests__\tooltip.test.js, components\transfer\__tests__\demo.test.js, components\transfer\__tests__\index.test.js
+2018-08-27T03:43:02.455485Z|cov-translate|920|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/steps/__tests__/demo.test.js components/switch/__tests__/demo.test.js components/switch/__tests__/index.test.js components/table/__tests__/SelectionBox.test.js components/table/__tests__/Table.filter.test.js components/table/__tests__/Table.pagination.test.js components/table/__tests__/Table.rowSelection.test.js components/table/__tests__/Table.sorter.test.js components/table/__tests__/Table.test.js components/table/__tests__/demo.test.js components/table/__tests__/empty.test.js components/tabs/__tests__/demo.test.js components/tabs/__tests__/index.test.js components/tag/__tests__/demo.test.js components/tag/__tests__/index.test.js components/time-picker/__tests__/demo.test.js components/time-picker/__tests__/index.test.js components/timeline/__tests__/demo.test.js components/tooltip/__tests__/demo.test.js components/tooltip/__tests__/tooltip.test.js components/transfer/__tests__/demo.test.js components/transfer/__tests__/index.test.js 
+2018-08-27T03:43:02.462001Z|cov-translate|920|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-7cd80cbc47088582729cd0b4f054a310-0.cmd_args.txt
+2018-08-27T03:43:02.472529Z|cov-translate|920|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:02.472529Z|cov-translate|920|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:02.472529Z|cov-translate|920|output|> 
+2018-08-27T03:43:02.518153Z|cov-translate|920|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:02.524670Z|cov-translate|920|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:02.537213Z|cov-translate|920|output|> 
+2018-08-27T03:43:02.542718Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:02.608392Z|cov-translate|14144|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:02.611400Z|cov-translate|14144|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:02.614408Z|cov-translate|14144|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/components/transfer/__tests__/list.test.js" "D:/ä¸‹è½½/ant-design-master/components/transfer/__tests__/search.test.js" "D:/ä¸‹è½½/ant-design-master/components/tree/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tree-select/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/tree-select/__tests__/index.test.js" "D:/ä¸‹è½½/ant-design-master/components/upload/__tests__/demo.test.js" "D:/ä¸‹è½½/ant-design-master/components/upload/__tests__/requests.js" "D:/ä¸‹è½½/ant-design-master/components/upload/__tests__/upload.test.js" "D:/ä¸‹è½½/ant-design-master/components/upload/__tests__/uploadlist.test.js" "D:/ä¸‹è½½/ant-design-master/index-with-locales.js" "D:/ä¸‹è½½/ant-design-master/index.js" "D:/ä¸‹è½½/ant-design-master/scripts/generateColorLess.js" "D:/ä¸‹è½½/ant-design-master/scripts/prepub.js" "D:/ä¸‹è½½/ant-design-master/scripts/sort-api-table.js" "D:/ä¸‹è½½/ant-design-master/scripts/update-rc.js"
+2018-08-27T03:43:02.636467Z|cov-translate|14144|output|> [STATUS] Compiling 15 Non compiled source files.
+2018-08-27T03:43:02.636467Z|cov-translate|14144|output|> [STATUS] Compiling components\transfer\__tests__\list.test.js, components\transfer\__tests__\search.test.js, components\tree\__tests__\demo.test.js, components\tree-select\__tests__\demo.test.js, components\tree-select\__tests__\index.test.js, components\upload\__tests__\demo.test.js, components\upload\__tests__\requests.js, components\upload\__tests__\upload.test.js, components\upload\__tests__\uploadlist.test.js, index-with-locales.js, index.js, scripts\generateColorLess.js, scripts\prepub.js, scripts\sort-api-table.js, scripts\update-rc.js
+2018-08-27T03:43:02.636467Z|cov-translate|14144|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ components/transfer/__tests__/list.test.js components/transfer/__tests__/search.test.js components/tree/__tests__/demo.test.js components/tree-select/__tests__/demo.test.js components/tree-select/__tests__/index.test.js components/upload/__tests__/demo.test.js components/upload/__tests__/requests.js components/upload/__tests__/upload.test.js components/upload/__tests__/uploadlist.test.js index-with-locales.js index.js scripts/generateColorLess.js scripts/prepub.js scripts/sort-api-table.js scripts/update-rc.js 
+2018-08-27T03:43:02.641480Z|cov-translate|14144|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-91314427683f17cc4c2ea86d1991622d-0.cmd_args.txt
+2018-08-27T03:43:02.653513Z|cov-translate|14144|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:02.653513Z|cov-translate|14144|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:02.653513Z|cov-translate|14144|output|> 
+2018-08-27T03:43:02.701641Z|cov-translate|14144|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:02.707156Z|cov-translate|14144|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:02.723199Z|cov-translate|14144|output|> 
+2018-08-27T03:43:02.728713Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:02.794391Z|cov-translate|14340|output|> Using cached template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/c8f9de1601ea66885a3e53408842da4f/coverity_config.xml
+2018-08-27T03:43:02.796895Z|cov-translate|14340|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:02.799903Z|cov-translate|14340|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/site/bisheng.config.js" "D:/ä¸‹è½½/ant-design-master/site/theme/en-US.js" "D:/ä¸‹è½½/ant-design-master/site/theme/index.js" "D:/ä¸‹è½½/ant-design-master/site/theme/static/style.js" "D:/ä¸‹è½½/ant-design-master/site/theme/zh-CN.js" "D:/ä¸‹è½½/ant-design-master/tests/__mocks__/rc-trigger.js" "D:/ä¸‹è½½/ant-design-master/tests/__mocks__/rc-util/lib/Portal.js" "D:/ä¸‹è½½/ant-design-master/tests/dekko/dist.test.js" "D:/ä¸‹è½½/ant-design-master/tests/dekko/lib.test.js" "D:/ä¸‹è½½/ant-design-master/tests/index.test.js" "D:/ä¸‹è½½/ant-design-master/tests/setup.js" "D:/ä¸‹è½½/ant-design-master/tests/shared/demoTest.js" "D:/ä¸‹è½½/ant-design-master/tests/shared/focusTest.js" "D:/ä¸‹è½½/ant-design-master/tests/utils.js" "D:/ä¸‹è½½/ant-design-master/webpack.config.js"
+2018-08-27T03:43:02.819956Z|cov-translate|14340|output|> [STATUS] Compiling 15 Non compiled source files.
+2018-08-27T03:43:02.819956Z|cov-translate|14340|output|> [STATUS] Compiling site\bisheng.config.js, site\theme\en-US.js, site\theme\index.js, site\theme\static\style.js, site\theme\zh-CN.js, tests\__mocks__\rc-trigger.js, tests\__mocks__\rc-util\lib\Portal.js, tests\dekko\dist.test.js, tests\dekko\lib.test.js, tests\index.test.js, tests\setup.js, tests\shared\demoTest.js, tests\shared\focusTest.js, tests\utils.js, webpack.config.js
+2018-08-27T03:43:02.819956Z|cov-translate|14340|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=javascript --fs-capture-search ./ site/bisheng.config.js site/theme/en-US.js site/theme/index.js site/theme/static/style.js site/theme/zh-CN.js tests/__mocks__/rc-trigger.js tests/__mocks__/rc-util/lib/Portal.js tests/dekko/dist.test.js tests/dekko/lib.test.js tests/index.test.js tests/setup.js tests/shared/demoTest.js tests/shared/focusTest.js tests/utils.js webpack.config.js 
+2018-08-27T03:43:02.825472Z|cov-translate|14340|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-880e672414b41b3894efb675ab7aa969-0.cmd_args.txt
+2018-08-27T03:43:02.835498Z|cov-translate|14340|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:02.835498Z|cov-translate|14340|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:02.835498Z|cov-translate|14340|output|> 
+2018-08-27T03:43:02.881120Z|cov-translate|14340|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:02.890645Z|cov-translate|14340|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:02.903179Z|cov-translate|14340|output|> 
+2018-08-27T03:43:02.908693Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:02.908693Z|cov-build|2024|info|> BEGIN source files (1) for template-html-config-0 (^.*\.(html|htm)$ -> cov-filesystem-capture-html-0)
+2018-08-27T03:43:02.908693Z|cov-build|2024|info|> D:/ÏÂÔØ/ant-design-master/site/theme/static/template.html
+2018-08-27T03:43:02.908693Z|cov-build|2024|info|> END source files for template-html-config-0 (^.*\.(html|htm)$ -> cov-filesystem-capture-html-0)
+2018-08-27T03:43:03.016482Z|cov-translate|14440|output|> * Configuring JavaScript Filesystem Capture (html)
+2018-08-27T03:43:03.027511Z|cov-translate|14440|output|> Added template compiler configuration instance D:/ÏÂÔØ/ant-design-master/cov-int/emit/UPC2539/config/e256a35d9ed9bc024a26874e678bc5dd/coverity_config.xml
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\e256a35d9ed9bc024a26874e678bc5dd\coverity_config.xml
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|> Node: coverity
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>   Node: config
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>     Node: include Value: D:\ä¸‹è½½\ant-design-master\cov-int\emit\UPC2539\config\e256a35d9ed9bc024a26874e678bc5dd\html-config-0\coverity_config.xml
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|> Configuration read from: D:\ÏÂÔØ\ant-design-master\cov-int\emit\UPC2539\config\e256a35d9ed9bc024a26874e678bc5dd\html-config-0\coverity_config.xml
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|> Node: coverity
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>   Node: cit_version Value: 1
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>   Node: config
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>     Node: build
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>       Node: compiler
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_name Value: cov-filesystem-capture-html-0
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_translator Value: html
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_lang Value: Non Compiled
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_front_end Value: cov-internal-emit-misc
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_desc Value: JavaScript Filesystem Capture (html)
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: comp_generic Value: javascript
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: id Value: html-cov-filesystem-capture-html-0-e256a35d9ed9bc024a26874e678bc5dd-0
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: is_compiler Value: true
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: is_linker Value: false
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>       Node: options
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: id Value: html-cov-filesystem-capture-html-0-e256a35d9ed9bc024a26874e678bc5dd-0
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: template_config_option_id Value: html-cov-filesystem-capture-html-0-.*
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: prepend_arg Value: --language=html
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: split
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>           Node: options
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>             Node: prepend_arg Value: -coverity_source=non_compiled
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: expand
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>           Node: options
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>             Node: intern_split_response_file_fn Value: line_split
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>         Node: begin_command_line_config
+2018-08-27T03:43:03.034529Z|cov-translate|14440|output|>   Node: md5 Value: 058cd976eabcc4a76659465c85de7e25
+2018-08-27T03:43:03.035030Z|cov-translate|14440|output|> [WARNING] cannot make path from the PATH element '"C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin"'.  Skipping this element and continuing.
+2018-08-27T03:43:03.037537Z|cov-translate|14440|output|> COV_TRANSLATE EXPANDED ARGS: "--fs-capture-search" "./" "D:/ä¸‹è½½/ant-design-master/site/theme/static/template.html"
+2018-08-27T03:43:03.052577Z|cov-translate|14440|output|> [STATUS] Compiling site\theme\static\template.html
+2018-08-27T03:43:03.052577Z|cov-translate|14440|output|> D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe --dir=D:\ÏÂÔØ\ant-design-master\cov-int --language=html --fs-capture-search ./ site/theme/static/template.html 
+2018-08-27T03:43:03.057591Z|cov-translate|14440|output|> Command line with response file: D:/up/cov-analysis-win64-2017.07/bin/cov-internal-emit-misc.exe @utf8@D:\ÏÂÔØ\ant-design-master\cov-int\tmp\cov-internal-emit-misc-27af246b46d3bc9a62ba5f2cdb8c9099-0.cmd_args.txt
+2018-08-27T03:43:03.068119Z|cov-translate|14440|output|> Coverity Internal Misc Emit version 2017.07 on Windows 10 Enterprise, 64-bit (build 15063)
+2018-08-27T03:43:03.068119Z|cov-translate|14440|output|> Internal version numbers: c7e331b562 p-milo-push-30112.651
+2018-08-27T03:43:03.068119Z|cov-translate|14440|output|> 
+2018-08-27T03:43:03.112237Z|cov-translate|14440|output|> Cannot create directory "D:/????/ant-design-master/cov-int/emit": ÎÄ¼þÃû¡¢Ä¿Â¼Ãû»ò¾í±êÓï·¨²»ÕýÈ·¡£
+2018-08-27T03:43:03.118754Z|cov-translate|14440|output|> WARNING: cov-internal-emit-misc returned with code 2
+2018-08-27T03:43:03.133292Z|cov-translate|14440|output|> 
+2018-08-27T03:43:03.139309Z|cov-build|2024|info|> cov-translate exited with code 0
+2018-08-27T03:43:03.139309Z|cov-build|2024|info|> No source files for template-ruby-config-0 (^.*\.rb$ -> cov-filesystem-capture-ruby-0)
+2018-08-27T03:43:03.139309Z|cov-build|2024|info|> No source files for template-php-config-0 (^.*\.php$ -> cov-filesystem-capture-php-0)
+2018-08-27T03:43:03.139309Z|cov-build|2024|info|> No source files for template-python-config-0 (^.*\.py$ -> cov-filesystem-capture-python-0)
+2018-08-27T03:43:03.160365Z|cov-build|2024|info|> 
+2018-08-27T03:43:03.160365Z|cov-build|2024|info|> Build time (cov-build overall): 00:00:02.872663
+2018-08-27T03:43:03.160365Z|cov-build|2024|info|> 
+2018-08-27T03:43:03.160866Z|cov-build|2024|info|> Build time ( emits total): 00:00:01.691524
+2018-08-27T03:43:03.160866Z|cov-build|2024|info|> 
+2018-08-27T03:43:03.189442Z|cov-build|2024|info|> [WARNING] No files were emitted. This may be due to a problem with your configuration
+2018-08-27T03:43:03.189943Z|cov-build|2024|info|> or because no files were actually compiled by your build command.
+2018-08-27T03:43:03.189943Z|cov-build|2024|info|> Please make sure you have configured the compilers actually used in the compilation.
+2018-08-27T03:43:03.189943Z|cov-build|2024|info|>  For more details, please look at: 
+2018-08-27T03:43:03.190445Z|cov-build|2024|info|>     D:/ÏÂÔØ/ant-design-master/cov-int/build-log.txt
+2018-08-27T03:43:03.216014Z|cov-build|2024|info|> 
